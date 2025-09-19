@@ -1,0 +1,17 @@
+{
+  "name": "bglisten",
+  "version": "0.0.1",
+  "description": "jambonz websocket application",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "jslint": "eslint app.js lib"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@jambonz/node-client-ws": "^0.2.11",
+    "express": "^5.1.0",
+    "pino": "^9.10.0"
+  }
+}
